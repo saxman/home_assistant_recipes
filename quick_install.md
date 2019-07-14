@@ -8,6 +8,11 @@ ref: Raspbian install process
 ## 2. Install HASS (manual install)
 https://www.home-assistant.io/docs/installation/raspberry-pi/
 
+Before running HASS for the first time, install the following in order to get modules to compile.
+```
+$ sudo apt-get install libudev-dev
+```
+
 Stop after you run "hass" for the first time, and have verified that the installation works.
 
 ```
